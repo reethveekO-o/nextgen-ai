@@ -1,0 +1,7 @@
+FROM mistral
+
+PARAMETER stop [INST]
+PARAMETER stop [/INST]
+PARAMETER temperature 1
+
+SYSTEM "{{system_prompt}}"
